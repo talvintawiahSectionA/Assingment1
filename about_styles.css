@@ -1,0 +1,67 @@
+body {
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+  background-color: tan;
+  color: dimgray;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-image: url("/images/tennis_1.jpg");
+  color: white;
+  padding: 16px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 16px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  flex: 1;
+  padding: 16px;
+}
+
+h3 {
+  color: darkorange;
+  margin-top: 24px;
+}
+
+ul {
+  list-style-type: disc;
+  margin: 16px 0;
+  padding-left: 24px;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 16px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+img:hover {
+  transform: translateY(-10px);
+}
